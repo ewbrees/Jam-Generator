@@ -1,0 +1,109 @@
+.LoginContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  overflow-y: auto;
+}
+
+.LoginHeader {
+  color: #003840;
+  font-size: 3vw;
+  margin-bottom: 2vh;
+}
+
+.InputText {
+  color: #003840;
+  font-size: 2vw;
+  margin-bottom: 1vh;
+  font-weight: bold;
+}
+
+.InputL {
+  width: 23vw;
+  height: 6vh;
+  color: #005A5B;
+  background-color: #02A676;
+  font-size: 1.5vw;
+  border: 7.5px solid #005A5B;
+  margin: 1vw;
+}
+
+.InputL:focus {
+  outline: none; /* Remove the default blue outline */
+  border-color: #003840; /* Set the border color to green when the input is focused */
+}
+
+.LoginButton {
+  display: block;
+  background-color: #008C72;
+  color: #005A5B;
+  font-family: "Esphimere Semi Bold", sans-serif;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  font-size: 3vw;
+  cursor: pointer;
+  width: 14vw;
+  height: 11vh;
+  box-sizing: border-box;
+  margin-bottom: 1vh; /* Add margin-bottom to create space between the buttons */
+}
+
+.LoginButton:hover {
+  background-color: #02A676;
+}
+
+.SubmitButtonL {
+  display: block;
+  margin-left: 14vw;
+  margin-top: 2vh; /* Adjust the margin-top value to control the spacing between the buttons */
+  background-color: #008C72;
+  color: #005A5B;
+  font-family: "Esphimere Semi Bold", sans-serif;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5vw;
+  cursor: pointer;
+  width: 9vw;
+  height: 7.5vh;
+  box-sizing: border-box;
+}
+
+.SubmitButtonL:hover {
+  background-color: #02A676;
+}
+
+.SubmitButtonLog {
+  display: block;
+  background-color: #008C72;
+  color: #005A5B;
+  font-family: "Esphimere Semi Bold", sans-serif;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  font-size: 1vw;
+  cursor: pointer;
+  width: 4.5vw;
+  height: 5vh;
+  box-sizing: border-box;
+}
+
+.SubmitButtonLog:hover {
+  background-color: #02A676;
+}
+
+.ElseText {
+  color: #003840;
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+
+.NowLogText {
+  color: #003840;
+  font-size: 1vw;
+  font-weight: bold;
+  margin-top: 5vh;
+}

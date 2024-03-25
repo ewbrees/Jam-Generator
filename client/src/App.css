@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  text-align: center;
+  background-color: #008C72;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.ButtonContainer {
+  display: flex;
+  justify-content: flex-end; /* Align items to the right */
+}
+
+.ButtonWrapper {
+  margin-left: auto; /* Push the button to the right */
+}
+
+
+.Bottom {
+  position: absolute;
+  bottom: 20%;
+}
+
+.SubmitButton {
+  margin-left: 20px;
+  padding: 10px 20px;
+  background-color: #007369;
+  color: #003840;
+  font-family: "Esphimere Semi Bold", sans-serif;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  width: 110px;
+  height: 50px;
+}
+
+.SubmitButton:hover {
+  background-color: #005A5B;
+}

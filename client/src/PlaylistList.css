@@ -1,0 +1,94 @@
+.playlist-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .song-group {
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    display: flex;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .song-group-content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: #afacac;
+    padding: 0.5rem;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    width: 23vw;
+    height: 11vw;
+  }
+
+  .song-group-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .album-art {
+    flex-basis: 50%;
+    margin-right: 1rem;
+  }
+  
+  .album-art img {
+    width: 10.5vw; /* set a fixed width */
+    height: 10.5vw; /* set a fixed height */
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1), 0px 2px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .song-info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .song-name {
+    font-size: 0.7em;
+    font-weight: bold;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+    line-height: 0.9;
+  }
+  
+  .album {
+    font-size: 0.6em;
+    font-weight: bold;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+    line-height: 0.9;
+  }
+  
+  .artist {
+    font-size: 0.5em;
+    margin-top: -0.1em;
+    margin-bottom: 0.01em;
+  }
+  
+  .popularity {
+    font-size: 0.5em;
+    margin-top: 1em;
+    margin-bottom: -0.1em;
+  }
+  
+  .explicitness {
+    font-size: 0.5em;
+    margin-top: 0em;
+    margin-bottom: 1em;
+  }
+  
+  .duration {
+    position: absolute; /* add absolute positioning */
+    right: 1rem; /* adjust right property to position the element to the right */
+    bottom: 0.5rem; /* adjust bottom property to position the element at the bottom */
+    font-size: 0.6em;
+    margin: 0;
+  }

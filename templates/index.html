@@ -1,0 +1,13 @@
+{% for playlist_id, playlist in playlists.items() %}
+    <h2>{{ playlist.name }}</h2>
+    <p>{{ playlist.description }}</p>
+    <p>Owner: {{ playlist.owner }}</p>
+    <ul>
+    {% for song in playlist.songs %}
+        <li>{{ song.title }} by {{ song.artist }} ({{ song.duration }} seconds) - <a href="{{ song.link }}">Listen on YouTube</a></li>
+    {% endfor %}
+    </ul>
+{% endfor %}
+
+
+    

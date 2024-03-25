@@ -1,0 +1,161 @@
+body {
+  background-color: #007369;
+  background-attachment: fixed;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.Output-header {
+  text-align: center;
+  background-color: #007369;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  background-attachment: fixed;
+}
+
+.Main-text{
+  position: absolute;
+  top: 40vh;
+  color: #003840;
+  text-align: center;
+  font-size: 3vw;
+  margin-top: -25vh;
+}
+
+.Song-output{
+  margin-left: 15vw;
+  margin-right: 6vw;
+  top: 50vh;
+  color: #003840;
+  text-align: center;
+  font-size: 2vw;
+}
+
+.SubmitButtonAlt {
+    margin-left: 20px;
+    background-color: #008C72;
+    color: #005A5B;
+    font-family: "Esphimere Semi Bold", sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    font-size: 1vw;
+    cursor: pointer;
+    width: 6vw;
+    height: 5vh;
+    box-sizing: border-box;
+  }
+  
+  .SubmitButtonAlt:hover {
+    background-color: #02A676;
+  }
+
+.InputAlt {
+    width: 15vw;
+    height: 4vh;
+    color: #005A5B;
+    background-color: #02A676;
+    font-size: 1vw;
+    border: 5px solid #005A5B;
+  }
+  
+  .InputAlt:focus {
+    outline: none; /* Remove the default blue outline */
+    border-color: #003840; /* Set the border color to green when the input is focused */
+  }
+
+  .SaveButton {
+    background-color: #005A5B;
+    color: #008C72;
+    font-family: "Esphimere Semi Bold", sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 2vw;
+    font-size: 1.5vw;
+    cursor: pointer;
+    width: 15vw;
+    height: 5vh;
+    justify-content: center;
+    margin-bottom: 2vh;
+}
+  
+.SaveButton:hover {
+    background-color: #003c3d;
+}
+
+  .Sidebar {
+    background-color: #005a5b;
+    height: 100%;
+    width: 13%;
+    position: fixed;
+    overflow-x: hidden;
+    padding-top: 20px;
+    z-index: 1; 
+    margin-top: 3%;
+  }
+  
+  .Sidebar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .Sidebar li button {
+    display: inline-flex;
+    max-width: 75%;
+    text-align: center;
+    background-color: #008C72;
+    color: #005A5B;
+    font-family: "Esphimere Semi Bold", sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    font-size: 1vw;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 8px;
+    margin-left: 1vw;
+    white-space: normal;
+    word-wrap: break-word;
+  }
+  
+  
+  .Sidebar li button:hover {
+    background-color: #007369;
+  }
+
+  .Selected-playlist {
+    font-size: 2.5vw; /* adjust the font size as desired */
+  }
+
+  .Sidebar h3 {
+    font-size: 1.5vw; /* Adjust the font size as desired */
+    color: #afacac; /* Adjust the color as desired */
+    text-align: center;
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+
+  .TrashIcon {
+    vertical-align: middle;
+    cursor: pointer; /* Change cursor to indicate clickable element */
+  }
+  
+  .TrashIcon:hover {
+    color: #007369; /* Change color when hovered over */
+  }
+
+  
